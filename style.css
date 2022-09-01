@@ -1,0 +1,98 @@
+@font-face {
+    font-family: NexaRegular;
+    src: url(./font/NexaRegular.otf);
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: NexaBold;
+    src: url(./font/NexaBold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: NexaLight;
+    src: url(./font/NexaLight.otf);
+    font-weight: light;
+}
+
+:root {
+    --primary-color: #FF6A00; 
+    --secondary-color: #FFEEE2;
+    --white-primary-color: #FFFBF9;
+    --background-clr: #E6E6E6;
+}
+
+
+*,*::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "NexaRegular";
+    font-size: 10px;
+    background-color: var(--white-primary-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem;
+    position: relative;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    width: 60vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem 0 0 2rem;
+    
+}
+
+.menu-box {
+    width: 100%;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    list-style: none;
+    margin-block: 2rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: var(--white-primary-color);
+    margin-left: 2.1rem;
+}
+
+.sec-menu {
+    text-align: center;
+    margin-top: 9.3rem;
+}
+
+.get-started {
+    width: 80%;
+    padding-block: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font: inherit;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
