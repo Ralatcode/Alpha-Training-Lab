@@ -210,3 +210,32 @@ nav {
     line-height: 2.1rem;
     color: var(--sub-headin-color);
 }
+
+.members-info {
+    background-color: var(--primary-color);
+    padding-block: 7.5rem;
+    border-radius: .5rem;
+}
+
+.members-info > .box {
+    color: #ffff;
+    text-align: center;
+    font-family: "NexaBold", sans-serif;
+    font-weight: bold;
+}
+
+.members-info > .box:nth-child(2) {
+    margin-block: 5.25rem;
+}
+
+.members-info > .box > .title {
+    font-size: 1.8rem;
+    line-height: 1;
+    margin-top: .65rem;
+}
+
+.members-info > .box > .value {
+    font-size: 4rem;
+    line-height: 1;
+    margin-top: 1.5rem;
+}
