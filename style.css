@@ -35,6 +35,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -115,8 +116,7 @@ nav {
 
 .index-hero {
     width: 90vw;
-    margin-inline: auto;
-    margin-top: 9.6rem;
+    margin: 9.6rem auto 20rem;
     text-align: center;
     padding: 1rem;
 }
@@ -173,4 +173,40 @@ nav {
 .scroll-box a > img {
     max-width: 100%;
     height: auto;
+}
+
+.info-section {
+    font-family: "NexaBold";
+    width: 90vw;
+    margin: 0 auto 20rem;
+}
+
+.info-section:last-child {
+    margin-bottom: 15rem;
+}
+
+.info-section > h4 {
+    font-size: 1.8rem;
+    line-height: 1;
+    color: var(--primary-color);
+}
+
+.info-section > h2 {
+    font-size: 2.6rem;
+    line-height: 1;
+    color: var(--heading-color);
+    margin-top: 1rem;
+}
+
+.info-section > img {
+    max-width: 100%;
+    height: auto;
+    margin-block: 5rem;
+}
+
+.info-section > p {
+    font-family: "NexaRegular";
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    color: var(--sub-headin-color);
 }
