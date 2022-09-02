@@ -22,6 +22,8 @@
     --secondary-color: #FFEEE2;
     --white-primary-color: #FFFBF9;
     --background-clr: #E6E6E6;
+    --heading-color: rgba(65, 65, 65, 0.8);
+    --sub-headin-color: #676767;
 }
 
 
@@ -37,6 +39,7 @@ html {
 
 body {
     font-family: "NexaRegular";
+    font-weight: 400;
     font-size: 10px;
     background-color: var(--white-primary-color);
 }
@@ -53,6 +56,17 @@ header {
     height: auto;
 }
 
+.menu-switch-box {
+    width: 50px;
+    aspect-ratio: 1;
+    background-image: url(./images/hamburger.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0.5rem;
+    position: relative;
+    z-index: 99;
+}
+
 nav {
     position: absolute;
     top: 0;
@@ -63,8 +77,10 @@ nav {
     display: flex;
     align-items: center;
     border-radius: 2rem 0 0 2rem;
-    
+    transform: translateX();
 }
+
+
 
 .menu-box {
     width: 100%;
@@ -95,4 +111,66 @@ nav {
     font: inherit;
     font-size: 1.5rem;
     color: var(--primary-color);
+}
+
+.index-hero {
+    width: 90vw;
+    margin-inline: auto;
+    margin-top: 9.6rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.index-hero > h2 {
+    font-size: 3.2rem;
+    line-height: 3.7rem;
+    font-family: "NexaBold";
+    color: var(--heading-color);
+}
+
+.unique {
+    color: var(--primary-color);
+}
+
+.index-hero > p {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    color: var(--sub-headin-color);
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.index-hero > button {
+    padding: 1.8rem 2.6rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--white-primary-color);
+    font-family: "NexaBold";
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 1;
+    box-shadow: 5px 5px 10px rgba(255, 106, 0, 0.4);
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.scroll-box {
+    margin-top: 8.2rem;
+}
+
+.scroll-box > h4 {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: normal;
+    color: #8F8F8F;
+    margin-bottom: 0.4rem;
+}
+
+.scroll-box a {
+    display: block;
+}
+
+.scroll-box a > img {
+    max-width: 100%;
+    height: auto;
 }
