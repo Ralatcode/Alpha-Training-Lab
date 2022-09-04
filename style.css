@@ -245,13 +245,14 @@ nav {
     margin-top: 15rem;
 }
 
-.attestation > .title {
+.attestation > .title, .key-players > .title {
     font-family: 'NexaBold', sans-serif;
     font-size: 2.6rem;
     line-height: 1;
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 5rem;
+    color: var(--sub-headin-color);
 }
 
 .attestation > .content > .box {
@@ -290,5 +291,49 @@ nav {
     line-height: 1;
     text-align: right;
     margin-top: 5rem;
+    margin-right: 1.9rem;
+}
+
+.player-box {
+    position: relative;
+    width: 80vw;
+    margin: 12rem auto 0;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    padding: 6.3rem 1.3rem 2.5rem;
+    font-family: 'NexaBold', sans-serif;
+    color: var(--sub-headin-color);
+}
+
+.player-box > .avatar-box {
+    display: flex;
+    justify-content: center;
+}
+
+.player-box > .avatar-box > .avatar {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: -7rem;
+}
+
+.player-box > .name {
+    font-size: 1.8rem;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+.player-box > .position {
+    font-size: 1.1rem;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-top: 2px;
+}
+
+.player-box > .description {
+    font-family: 'NexaRegular', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    margin-top: 0.9rem;
 }
 
