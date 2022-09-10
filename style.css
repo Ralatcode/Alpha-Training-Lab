@@ -58,6 +58,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1.6rem;
+    width: 90vw;
+    margin: 0 auto;
     position: relative;
     overflow-x: hidden;
 }
@@ -65,6 +67,44 @@ header {
 .logo {
     max-width: 100%;
     height: auto;
+}
+
+.hamburger {
+    display: flex;
+    align-items: center;
+}
+
+
+.hamburger > .line {
+    display: block;
+    background-color: var(--sub-headin-color);
+    width: 2.9rem;
+    height: .6rem;
+    position: relative;
+    top: 0;
+
+    border-radius: .6rem;
+}
+
+.hamburger > .line::before, .hamburger > .line::after {
+    content: ' ';
+    display: block;
+    background-color: var(--sub-headin-color);
+    position: absolute;
+    width: 2.9rem;
+    height: .6rem;
+    border-radius: .6rem;
+}
+
+.hamburger > .line::before {
+    top: 1rem;
+    left: 19%;
+}
+
+
+.hamburger > .line::after {
+    bottom: 1rem;
+    left: 19%;
 }
 
 
