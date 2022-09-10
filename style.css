@@ -82,10 +82,10 @@ header {
     height: .6rem;
     position: relative;
     top: 0;
-
     border-radius: .6rem;
+    z-index: 99;
 }
-
+/* using before and after pseudo elements to make top and bottom line for mobile-toggle */
 .hamburger > .line::before, .hamburger > .line::after {
     content: ' ';
     display: block;
@@ -94,6 +94,7 @@ header {
     width: 2.9rem;
     height: .6rem;
     border-radius: .6rem;
+    z-index: 99;
 }
 
 .hamburger > .line::before {
