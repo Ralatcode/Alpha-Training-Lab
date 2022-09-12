@@ -36,6 +36,8 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -43,6 +45,8 @@ body {
     font-weight: 400;
     font-size: 10px;
     background-color: var(--white-primary-color);
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .sr-only {
@@ -126,6 +130,7 @@ nav {
 
 .menu-box {
     width: 100%;
+    overflow-x: hidden;
 }
 
 .nav-item {
