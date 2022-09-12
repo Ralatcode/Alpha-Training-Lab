@@ -59,6 +59,10 @@ body {
 }
 
 header {
+    position: relative;
+}
+
+.header-box {
     display: flex;
     justify-content: space-between;
     padding: 1.6rem;
