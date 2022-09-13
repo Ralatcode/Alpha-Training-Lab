@@ -40,6 +40,7 @@ html {
     overflow-x: hidden;
 }
 
+
 body {
     font-family: "NexaRegular";
     font-weight: 400;
@@ -455,4 +456,49 @@ nav {
     border-radius: .5rem;
     padding: 1.6rem .8rem;
     margin-top: 3rem;
+}
+
+footer {
+    width: 90vw;
+    margin: 20rem auto 0;
+    text-align: center;
+}
+
+.footer-details > img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-details .footer-p {
+    color: var(--sub-headin-color);
+    font-size: 1.2rem;
+    line-height: 1.4;
+    letter-spacing: .015em;
+    padding: 1rem;
+    margin-top: 4.1rem;
+}
+
+.footer-link-box {
+    margin-bottom: 5rem;
+}
+
+.footer-link-box .row {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.footer-link-box .row > h4 {
+    font-family: 'NexaBold', sans-serif;
+    font-size: 1.8rem;
+    color: #8F8F8F;
+    letter-spacing: .015em;
+    margin-bottom: .5rem;
+}
+
+.footer-link-box .row > .footer-links {
+    text-decoration: none;
+    color: var(--sub-headin-color);
+    font-size: 1.4rem;
 }
