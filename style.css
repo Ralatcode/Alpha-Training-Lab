@@ -502,3 +502,19 @@ footer {
     color: var(--sub-headin-color);
     font-size: 1.4rem;
 }
+
+footer .copyright {
+    padding-block: 3rem 1rem;
+    border-top: 1.5px solid #D1C8C8;
+}
+
+footer .copyright > p {
+    font-size: 1.2rem;
+    line-height: 1;
+    color: #8F8F8F;
+    letter-spacing: .015em;
+}
+
+footer .credit {
+    color: var(--primary-color);
+}
