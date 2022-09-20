@@ -518,3 +518,45 @@ footer .copyright > p {
 footer .credit {
     color: var(--primary-color);
 }
+
+@media (min-width: 700px) {
+
+    .header-box {
+        width: 95vw;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    nav {
+        all: unset;
+        min-width: 50%;
+    }
+
+    .menu-box {
+        all: unset;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav-menu {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .nav-item a {
+        color: var(--heading-color);
+        font-size: 1.8rem;
+        font-family: 'NexaBold', sans-serif;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .sec-menu {
+        display: flex;
+        margin-top: 0;
+    }
+
+
+}
