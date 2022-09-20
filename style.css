@@ -74,6 +74,7 @@ header {
 .logo {
     max-width: 100%;
     height: auto;
+    width: 70px;
 }
 
 .hamburger {
@@ -520,6 +521,10 @@ footer .credit {
 }
 
 @media (min-width: 700px) {
+
+    .logo {
+        width: 109px;
+    }
 
     .header-box {
         width: 95vw;
