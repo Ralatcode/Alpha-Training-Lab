@@ -621,16 +621,25 @@ footer .credit {
         grid-template-areas: 'a b'
                             'a c';
         grid-template-columns: 1fr 1fr;
+        gap: 2rem;
     }
 
     .info-section > img {
         grid-area: a;
         justify-self: center;
+        margin-block: unset;
     }
 
     .info-section > .info-title {
         grid-area: b;
         align-self: end;
+        text-align: right;
+    }
+
+    .info-section h2 {
+        max-width: 598px;
+        margin-left: auto;
+        font-size: 3.6rem;
     }
 
     .info-section > p {
