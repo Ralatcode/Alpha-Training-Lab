@@ -625,11 +625,12 @@ footer .credit {
 
     .info-section > img {
         grid-area: a;
+        justify-self: center;
     }
 
     .info-section > .info-title {
         grid-area: b;
-        /* align-items: ; */
+        align-self: end;
     }
 
     .info-section > p {
