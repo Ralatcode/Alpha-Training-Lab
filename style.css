@@ -578,6 +578,10 @@ footer .credit {
         cursor: pointer;
     }
 
+    button {
+        transition: all 300ms ease-in-out;
+    }
+
     button:hover {
         color: var(--primary-color);
         background-color: var(--secondary-color);
