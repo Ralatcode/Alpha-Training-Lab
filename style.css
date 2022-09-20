@@ -537,12 +537,16 @@ footer .credit {
     .menu-box {
         all: unset;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .nav-menu {
         display: flex;
         gap: 2rem;
+        width: 60%;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .nav-item a {
@@ -555,7 +559,29 @@ footer .credit {
 
     .sec-menu {
         display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 2rem;
         margin-top: 0;
+    }
+
+    .get-started {
+        width: unset;
+        padding-block: unset;
+        padding: 1.5rem 2.9rem;
+        background-color: var(--primary-color);
+        font-size: 2rem;
+        font-family: 'NexaBold', sans-serif;
+        font-weight: 700;
+        color: var(--heading-color);
+        border-radius: 3rem;
+        cursor: pointer;
+    }
+
+    button:hover {
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
+        border: 2px solid var(--primary-color);
     }
 
 
