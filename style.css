@@ -468,6 +468,7 @@ footer {
 .footer-details > img {
     max-width: 100%;
     height: auto;
+    width: 80px;
 }
 
 .footer-details .footer-p {
@@ -652,6 +653,8 @@ footer .credit {
         grid-area: c;
     }
 
-    
+    .footer-details > img {
+        width: 150px;
+    }
 
 }
