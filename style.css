@@ -628,6 +628,7 @@ footer .credit {
         grid-area: a;
         justify-self: center;
         margin-block: unset;
+        width: 500px;
     }
 
     .info-section > .info-title {
