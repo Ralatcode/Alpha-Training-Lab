@@ -573,7 +573,7 @@ footer .credit {
         font-size: 2rem;
         font-family: 'NexaBold', sans-serif;
         font-weight: 700;
-        color: var(--heading-color);
+        color: var(--white-primary-color);
         border-radius: 3rem;
         cursor: pointer;
     }
@@ -605,6 +605,10 @@ footer .credit {
         letter-spacing: 0.015em;
         max-width: 650px;
         margin: 3rem auto 6.5rem;
+    }
+
+    .scroll-box {
+        margin-top: 10.1rem;
     }
 
 
