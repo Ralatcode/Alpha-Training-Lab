@@ -641,6 +641,7 @@ footer .credit {
         grid-area: b;
         align-self: end;
         text-align: right;
+        margin-bottom: 2rem;
     }
 
     .info-section h2 {
@@ -651,6 +652,10 @@ footer .credit {
 
     .info-section > p {
         grid-area: c;
+        font-size: 1.6rem;
+        text-align: right;
+        max-width: 598px;
+        margin-left: auto;
     }
 
     .footer-details > img {
