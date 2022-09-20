@@ -611,5 +611,10 @@ footer .credit {
         margin-top: 10.1rem;
     }
 
+    .scroll-box > h4 {
+        font-size: 1.4rem;
+        text-transform: capitalize;
+    }
+
 
 }
