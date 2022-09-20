@@ -261,13 +261,13 @@ nav {
     margin-bottom: 15rem;
 }
 
-.info-section > h4 {
+.info-section  h4 {
     font-size: 1.8rem;
     line-height: 1;
     color: var(--primary-color);
 }
 
-.info-section > h2 {
+.info-section  h2 {
     font-size: 2.6rem;
     line-height: 1;
     color: var(--heading-color);
@@ -616,5 +616,26 @@ footer .credit {
         text-transform: capitalize;
     }
 
+    .info-section {
+        display: grid;
+        grid-template-areas: 'a b'
+                            'a c';
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .info-section > img {
+        grid-area: a;
+    }
+
+    .info-section > .info-title {
+        grid-area: b;
+        /* align-items: ; */
+    }
+
+    .info-section > p {
+        grid-area: c;
+    }
+
+    
 
 }
