@@ -728,4 +728,16 @@ footer .credit {
         font-size: 6.4rem;
     }
 
+    .attestation > .content {
+        display: flex;
+        align-items: center;
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .attestation > .content > .box {
+        width: calc(100% / 3);
+        margin: 0;
+    }
+
 }
