@@ -294,24 +294,24 @@ nav {
     border-radius: .5rem;
 }
 
-.members-info > .box {
+.members-info  .box {
     color: #ffff;
     text-align: center;
     font-family: "NexaBold", sans-serif;
     font-weight: bold;
 }
 
-.members-info > .box:nth-child(2) {
+.members-info  .box:nth-child(2) {
     margin-block: 5.25rem;
 }
 
-.members-info > .box > .title {
+.members-info  .box > .title {
     font-size: 1.8rem;
     line-height: 1;
     margin-top: .65rem;
 }
 
-.members-info > .box > .value {
+.members-info  .box > .value {
     font-size: 4rem;
     line-height: 1;
     margin-top: 1.5rem;
