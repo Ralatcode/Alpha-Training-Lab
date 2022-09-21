@@ -628,11 +628,11 @@ footer .credit {
                             'a c';
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
+        width: 85vw;
     }
 
     .info-section > img {
         grid-area: a;
-        justify-self: center;
         margin-block: unset;
         width: 500px;
     }
@@ -654,8 +654,34 @@ footer .credit {
         grid-area: c;
         font-size: 1.6rem;
         text-align: right;
-        max-width: 598px;
+        max-width: 606px;
         margin-left: auto;
+    }
+
+    .info-section.flip {
+        grid-template-areas: 'b a'
+                            'c a';
+    }
+
+    .info-section.flip > .info-title {
+        text-align: left;
+    }
+
+    .info-section.flip  h2 {
+        margin-left: 0;
+    }
+
+    .info-section.flip > img {
+        justify-self: end;
+    }
+
+    .info-section.flip > p {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .info-section .short {
+        max-width: 432px;
     }
 
     .footer-details > img {
