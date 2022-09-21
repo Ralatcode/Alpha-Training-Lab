@@ -542,6 +542,10 @@ footer .credit {
         display: none;
     }
 
+    .desktop-hide {
+        display: none;
+    }
+
     nav {
         all: unset;
         min-width: 50%;
