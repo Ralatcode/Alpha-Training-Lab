@@ -305,7 +305,14 @@ nav {
     margin-block: 5.25rem;
 }
 
-.members-info  .box > .title {
+.members-info  .box  svg {
+    max-width: 100%;
+    height: auto;
+    width: 22.5px;
+}
+
+
+.members-info  .box  .title {
     font-size: 1.8rem;
     line-height: 1;
     margin-top: .65rem;
@@ -694,6 +701,27 @@ footer .credit {
         align-items: center;
         width: 80%;
         margin: 0 auto;
+    }
+
+    .members-info .box .desc {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .members-info  .box  svg {
+        margin-top: 1.3rem;
+        width: 56px;
+    }
+
+    .members-info .box .title {
+        margin-top: 0;
+        font-size: 2.6rem;
+    }
+
+    .members-info .box > .value {
+        margin-top: 5.6rem;
+        font-size: 6.4rem;
     }
 
 }
