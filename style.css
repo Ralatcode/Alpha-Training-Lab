@@ -752,4 +752,8 @@ footer .credit {
         width: unset;
     }
 
+    .player-box > .description {
+        max-width: 450px;
+    }
+
 }
