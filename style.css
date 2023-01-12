@@ -743,7 +743,7 @@ footer .credit {
     .pair {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         width: 80vw;
         margin: 0 auto;
     }
@@ -753,7 +753,7 @@ footer .credit {
     }
 
     .player-box > .description {
-        max-width: 450px;
+        max-width: 500px;
     }
 
 }
